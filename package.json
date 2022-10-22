@@ -3,8 +3,7 @@
 	"description": "Delete Duplicate Files CLI",
 	"version": "0.0.1",
 	"license": "UNLICENSED",
-	"type": "module",
-	"exports":"./src/index.js",
+	"exports":"./src/index.ts",
 	"bin": {
 		"DDF": "index.js",
 		"ddf": "index.js"
@@ -20,7 +19,7 @@
 		"utils"
 	],
 	"scripts": {
-		"dev": "ts-node-dev --respawn --ignore-watch node_modules --no-notify src/index.js ",
+		"dev": "ts-node-dev --respawn --ignore-watch node_modules --no-notify src/index.ts ",
 		"format": "prettier --write \"./**/*.{js,json}\"",
 		"test": "jest"
 	},
