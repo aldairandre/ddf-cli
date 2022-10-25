@@ -1,11 +1,11 @@
 {
-	"name": "DDF",
+	"name": "ddf",
 	"description": "Help you Delete Duplicate Files into your dir",
 	"version": "0.0.1",
 	"license": "MIT",
 	"main": "index.js",
 	"bin": {
-		"DDF": "index.js",
+		
 		"ddf": "index.js"
 	},
 	"engines": {
