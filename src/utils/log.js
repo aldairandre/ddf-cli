@@ -1,4 +1,4 @@
-const alert = require('cli-alerts');
+const alert = require("cli-alerts");
 
 module.exports = info => {
 	alert({
