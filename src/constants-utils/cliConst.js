@@ -22,11 +22,18 @@ const flags = {
 		type: `boolean`,
 		alias: `v`,
 		desc: `Print CLI version`
+	},
+	ola: {
+		type: `boolean`,
+		alias: `o`,
+		default: true,
+		desc: `Print Ola`
 	}
 };
 
 const commands = {
-	help: { desc: `Print help info` }
+	help: { desc: `Print help info` },
+	ola: { desc: `Print Ola` }
 };
 
 const helpText = meowHelp({
@@ -43,8 +50,8 @@ const options = {
 };
 
 module.exports = {
-  flags:flags,
-  commands:commands,
-  helpText:helpText,
-  options:options
-}
+	flags: flags,
+	commands: commands,
+	helpText: helpText,
+	options: options
+};
